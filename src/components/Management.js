@@ -1,7 +1,8 @@
 import ManagementCounter from "./ManagementCounter"
 import './Management.css'
 export default function Management (props){
-
+    
+    const noMoreTicket = <div className='noMoreTicket'>No more tickets!!!</div>
     const managementCounterElements = props.counters.map(data =>{
             return (
                 <ManagementCounter 
@@ -18,8 +19,11 @@ export default function Management (props){
     )
 
     return (
-        <div className="management-con">
-            {managementCounterElements}
-        </div>
+        <>
+            {(props.lastServed === props.lastNumber) && noMoreTicket}
+            <div className="management-con">
+                {managementCounterElements}
+            </div>
+        </>
     )
 }

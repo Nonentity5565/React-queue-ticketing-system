@@ -6,3 +6,10 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
+.noMoreTicket {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 20px;
+}
