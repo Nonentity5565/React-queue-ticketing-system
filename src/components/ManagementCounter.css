@@ -1,0 +1,16 @@
+.management-counter-con{
+    display: flex;
+    flex-direction: column;
+    border: solid black 3px;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+.management-counter-con button{
+    padding: 10px;
+    margin: 5px 0px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}

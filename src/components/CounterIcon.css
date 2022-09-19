@@ -1,0 +1,23 @@
+.customer-counter-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: solid 4px black;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.customer-counter-con div {
+    margin: 5px 0px;
+}
+
+.online-status {
+    border: solid black 2px;
+    padding: 7px;
+    border-radius: 25px;
+}
+
+.counter-id, .counter-status {
+    font-weight: bold;
+}

@@ -1,0 +1,26 @@
+.header-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    background-color: grey;
+    padding: 10px;
+}
+
+.page-name {
+    margin-left: 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.header-text {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.header-btn {
+    margin-right: 3rem;
+    padding: 5px 15px;
+    font-size: 1.5rem;
+}
